@@ -14,7 +14,7 @@
     {
       "name": "ssh-connection",
       "type": "ssh",
-      "remoteUri": "ssh://user@hostname:22"
+      "remoteUri": "ssh://foo@10.158.80.165:22"
     }
   ]
 }
