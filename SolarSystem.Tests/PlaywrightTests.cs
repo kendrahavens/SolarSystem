@@ -37,6 +37,8 @@ namespace SolarSystem.Tests
             // Click article >> text=.NET
             await page.ClickAsync("article >> text=.NET");
             Assert.AreEqual("https://playwright.dev/docs/languages#net", page.Url);
+
+            // await page.ScreenshotAsync(new() { Path = "screenshot.png" });
         }
 
         [TestMethod]
@@ -44,5 +46,6 @@ namespace SolarSystem.Tests
         {
 
         }
+
     }
 }
